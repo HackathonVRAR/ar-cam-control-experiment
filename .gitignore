@@ -1,0 +1,56 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Ll]ibrary/
+sysinfo.txt
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+
+/.idea
+
+[Ll]ibrary/cache/*
+[Ll]ibrary/metadata/*
+[Ll]ibrary/previews
+[Ll]ibrary/ScriptAssemblies
+[Ll]ibrary/assetDatabase3
+[Ll]ibrary/AssetImportState
+[Ll]ibrary/assetservercache*
+[Ll]ibrary/AssetVersioning.db
+[Ll]ibrary/AudioManager.asset
+[Ll]ibrary/BuildPlayer.prefs
+[Ll]ibrary/BuildSettings.asset
+[Ll]ibrary/DynamicsManager.asset
+[Ll]ibrary/EditorSettings.asset
+[Ll]ibrary/EditorUserBuildSettings.asset
+[Ll]ibrary/expandedItems
+[Ll]ibrary/FailedAssetImports.txt
+[Ll]ibrary/guidmapper
+[Ll]ibrary/InspectorExpandedItems.asset
+[Ll]ibrary/MonoManager.asset
+[Ll]ibrary/NetworkManager.asset
+[Ll]ibrary/ScriptMapper
