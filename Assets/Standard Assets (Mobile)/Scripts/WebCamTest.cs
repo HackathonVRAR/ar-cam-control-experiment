@@ -11,7 +11,7 @@ public class WebCamTest : MonoBehaviour {
 		WebCamDevice[] devices = WebCamTexture.devices;
 		deviceName = devices[0].name;
 		wct = new WebCamTexture(deviceName, 400, 300, 12);
-		renderer.material.mainTexture = wct;
+		GetComponent<Renderer>().material.mainTexture = wct;
 		wct.Play();
 	}
 	

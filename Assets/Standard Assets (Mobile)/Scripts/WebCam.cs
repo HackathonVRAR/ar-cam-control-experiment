@@ -15,7 +15,7 @@ public class Webcam : MonoBehaviour
 		{
 			r.material.mainTexture = webcamTexture;
 		}
-		renderer.material.mainTexture = webcamTexture;
+		GetComponent<Renderer>().material.mainTexture = webcamTexture;
 		webcamTexture.Play();
 	}
 	
