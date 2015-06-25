@@ -4,10 +4,7 @@ using System.Runtime.InteropServices;
 using System.IO;
 using System;
 
-
-
-
-//Dive Head Tracking 
+//Dive Head Tracking
 // copyright by Shoogee GmbH & Co. KG Refer to LICENCE.txt 
 
 
@@ -138,8 +135,8 @@ public class OpenDiveSensor : MonoBehaviour {
 
 #if UNITY_EDITOR
 
-		if (rigidbody)
-			rigidbody.freezeRotation = true;
+		if (GetComponent<Rigidbody>())
+			GetComponent<Rigidbody>().freezeRotation = true;
 
   #elif UNITY_ANDROID
 
